@@ -72,9 +72,11 @@ WebKit inertia scrolling is being added here for any present/future devices that
     background-color: indigo;
 }
 
-.Middle {
+.Middle2 {
     flex: 1;
     background-color: violet;
+    height: auto;
+    padding: .5rem;
 }
 
 .Right {
@@ -84,10 +86,18 @@ WebKit inertia scrolling is being added here for any present/future devices that
 }
 
 .Text {
-    height: 120px;
+    height: 60px;
 }
 
 .Map {
     height: 200px;
     background-color: green;
+}
+
+.Results {
+    overflow: auto;
+    height: auto;
+    padding: .5rem;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
 }
