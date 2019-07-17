@@ -100,10 +100,12 @@ WebKit inertia scrolling is being added here for any present/future devices that
 
 .Text {
     height: 60px;
+    width: 100%;
 }
 
 .Map {
     height: 200px;
+    width: 100%;
     background-color: green;
 }
 
