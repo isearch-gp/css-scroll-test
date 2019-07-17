@@ -72,11 +72,24 @@ WebKit inertia scrolling is being added here for any present/future devices that
     background-color: indigo;
 }
 
-.Middle2 {
+.Middle2old {
     flex: 1;
     background-color: violet;
     height: auto;
     padding: .5rem;
+}
+
+.Middle2 {    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    margin-top: -100px;
+    padding-top: 100px;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
+    position: relative;
+    width: 100%;
+    backface-visibility: hidden;
+    will-change: overflow;
 }
 
 .Right {
