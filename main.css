@@ -24,6 +24,16 @@ body {
     z-index: 10;
     height: 100px;
 }
+.Bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgreen;
+    font-size: 3rem;
+    position: relative;
+    z-index: 10;
+    height: 100px;
+}
 /*This is our main wrapping element, it's made 100vh high to ensure it is always the correct size and then moved into place and padded with negative margin and padding*/
 .Container {
     display: flex;
