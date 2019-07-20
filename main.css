@@ -61,25 +61,25 @@ WebKit inertia scrolling is being added here for any present/future devices that
     -ms-overflow-style: none;
 }
 /*Entirely optional – just wanted to remove the scrollbar on WebKit browsers as I find them ugly*/
-/*.Left::-webkit-scrollbar,*/
+/*.Query::-webkit-scrollbar,*/
 .Middle::-webkit-scrollbar,
 .Right::-webkit-scrollbar {
     display: none;
 }
-/*  Left and Right are set sizes while the Middle is set to flex one so it occupies all remaining space. This could be set as a width too if prefereable, perhaps using calc.*/
+/*  Left/Query and Right are set sizes while the Middle is set to flex one so it occupies all remaining space. This could be set as a width too if prefereable, perhaps using calc.*/
 .Query {
     width: 12.5rem;
     background-color: indigo;
 }
 
-.Middle2old {
+.Middle {
     flex: 1;
     background-color: violet;
     height: auto;
     padding: .5rem;
 }
 
-.Middle2 {
+.MiddleContainer {
     display: flex;
     flex-direction: column;
     overflow: hidden;
