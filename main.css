@@ -22,7 +22,7 @@ body {
     font-size: 3rem;
     position: relative;
     z-index: 10;
-    height: 100px;
+    height: 50px;
 }
 .Bottom {
     display: flex;
@@ -32,17 +32,17 @@ body {
     font-size: 2rem;
     position: relative;
     z-index: 10;
-    height: 50px;
+    height: 20px;
 }
 /*This is our main wrapping element, it's made 100vh high to ensure it is always the correct size and then moved into place and padded with negative margin and padding*/
 .Container {
     display: flex;
     overflow: hidden;
     height: 100vh;
-    margin-top: -100px;
-    padding-top: 100px;
-    margin-bottom: -50px;
-    padding-bottom: 50px;
+    margin-top: -50px;
+    padding-top: 50px;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
     position: relative;
     width: 100%;
     backface-visibility: hidden;
@@ -97,13 +97,13 @@ WebKit inertia scrolling is being added here for any present/future devices that
 }
 
 .Text {
-    height: 60px;
+    height: 40px;
     width: 100%;
     flex:none;
 }
 
 .Map {
-    height: 200px;
+    height: 150px;
     width: auto;
     background-color: green;
     flex: none;
